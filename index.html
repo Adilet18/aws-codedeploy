@@ -1,0 +1,27 @@
+
+<HTML>
+<HEAD>
+<TITLE>ADILET-LINUX</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+        var sizes = new Arrray(0,1,2,4,8,10,12);
+        sizes.pos = 0;
+
+function Elastic()
+{
+        var el = document.all.elastic
+        if (null == el.direction)el.direction = 1
+        else if ((sizes.pos > sizes.lenght - 2) || (0 == sizes.pos))
+        el.direction *= -1
+        el.style.letterSpacing = sizes[size.pos += el.direction]
+setTimeout('Elastic()',100)
+}
+
+</SCRIPT>
+<BODY bgcolor="grey"  onLoad=Elastic()>
+<CENTER>
+<br><br><br><br>
+<br><br><br><br>
+<font color="white"><h2>Hello from Adilet!</h2>
+<font color="yellow"><H1 ID="elastic" ALIGN="Center">ADILET-LINUX</H1>
+</body>
+</HTML>

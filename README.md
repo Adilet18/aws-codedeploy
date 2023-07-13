@@ -1,1 +1,1 @@
-//Deploying the code using AWS CodeDeploy
+//Deploying the code using AWS CodeDeploy service
